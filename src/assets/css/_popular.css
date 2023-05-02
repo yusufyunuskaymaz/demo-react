@@ -1,0 +1,65 @@
+
+/*---------------------------Popular Start--------------------------------------*/
+
+.populer {
+    margin: 0 6.9rem 0 8.06rem;
+  }
+  
+  .cards {
+    margin: 2rem 8.06rem -1rem 6.9rem;
+  }
+  
+  .populer-container {
+    width: 95%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+  }
+  
+  .populer-container .head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .populer-container .head ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+  }
+  .populer-container .head li {
+    list-style-type: none;
+    font-size: 14px;
+    color: #7d7c84;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .populer-container .head li:hover {
+    transform: scale(1.1);
+  }
+  
+  .populer-container .head ul li:first-child {
+    background-color: #09080d;
+    color: #fcfcfd;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .populer-container .head .filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e9ebed;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .populer-container .head .filter span {
+    margin-right: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  /*---------------------------Popular Finish--------------------------------------*/

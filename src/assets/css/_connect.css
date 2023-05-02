@@ -1,0 +1,47 @@
+
+/*---------------------------Connect Start--------------------------------------*/
+
+.connect-container .header {
+    text-align: center;
+  }
+  
+  .connect-container .header h6 {
+    margin: 0 35rem 1rem 35rem;
+    color: #58c17d;
+  }
+  
+  .connect-container .header h6 {
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .connect-container .header h6:before {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 2px;
+    background: #58c17d;
+    left: -3rem;
+    top: 44%;
+    position: absolute;
+  }
+  
+  .connect-container .header h2 {
+    font-size: 48px;
+    margin: 0 15.3rem;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  
+  .connect-img {
+    /* background-image: url("/assets/img/other/connect.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 39.6rem ;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  /*---------------------------Connect Finish--------------------------------------*/

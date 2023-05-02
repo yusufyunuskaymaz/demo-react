@@ -1,0 +1,91 @@
+/*---------------------------Footer Start--------------------------------------*/
+
+.brand {
+    width: 25%;
+  }
+  
+  .brand p {
+    color: #7d7c84;
+  }
+  
+  .brand .about {
+    margin-top: 1rem;
+    /* text-align: center; */
+  }
+  
+  .brand .contact {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    /* width: 70%; */
+  }
+  
+  .brand .contact i {
+    margin-right: 1rem;
+  }
+  
+  .brand .contact span {
+    margin-right: 1rem;
+  
+  }
+  
+  
+  .links {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+  }
+  
+  .links .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #0a043c;
+  }
+  
+  .links ul li {
+    color: #7d7c84;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 0;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 80%; */
+    margin: auto;
+    margin-top: 5.4rem;
+    margin-bottom: 5rem;
+  }
+  
+  .social ul {
+    width: 8.25rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .icon-global{
+      padding: 0.3rem;
+      border-radius: 50%;
+      font-size: 13px;
+      color: white;
+      background-color: #09080d;
+  }
+  
+  .fa-facebook, .fa-linkedin{
+    font-size: 1.5rem;
+  }
+  
+  .linkedin{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* padding: .rem; */
+  }
+  
+  /*---------------------------Footer Finish--------------------------------------*/

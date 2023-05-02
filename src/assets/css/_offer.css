@@ -1,0 +1,63 @@
+/*---------------------------Offer Start--------------------------------------*/
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  
+  .offer p {
+    font-size: 48px;
+    font-weight: 500;
+  }
+  
+  .offer a {
+    text-decoration: none;
+    background-color: #3ebfc0;
+    padding: 1rem 2rem;
+    color: #fcfcfd;
+    border-radius: 32px;
+    transition: 0.5s;
+  }
+  
+  .offer p span {
+    font-weight: 600;
+  }
+  
+  .enroll {
+    display: flex;
+    margin: 0 20.9rem 0 19.8rem;
+    justify-content: space-between;
+    background-color: #000000;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 2rem 3rem;
+    border-radius: 0.6rem;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .enroll p {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+  }
+  
+  .enroll a {
+    text-decoration: none;
+    color: white;
+    background-color: #3ebfc0;
+    padding: 0.5rem 4rem;
+    border-radius: 0.6rem;
+    transition: 0.5s;
+  }
+  
+  .enroll a:hover {
+    transform: scale(1.1);
+  }
+  
+  /*---------------------------Offer Finish--------------------------------------*/

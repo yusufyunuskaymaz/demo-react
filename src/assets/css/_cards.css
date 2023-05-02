@@ -1,0 +1,72 @@
+
+/*---------------------------Cards Start--------------------------------------*/
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 8.5rem;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    overflow: hidden;
+  }
+  
+  .cards .card .fa-star {
+    color: #ffd166;
+  }
+  
+  .cards .card {
+    margin-top: 2rem;
+    width: 17.6rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .cards .card img {
+    transition: 0.5s;
+  }
+  .cards .card img:hover {
+    transform: scale(1.02);
+    transform-origin: center center;
+  }
+  .cards .card .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.3rem;
+  }
+  
+  .cards .card .card-info h6 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .cards .card .card-info .rate {
+    font-size: 16px;
+  }
+  
+  .cards .card .location {
+    font-size: 14px;
+    color: #7d7c84;
+    margin-top: 0.3rem;
+    border-bottom: 1px solid #e9ebed;
+    padding-bottom: 1rem;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .price p:last-child {
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+  .price p:last-child span {
+    font-size: 12px;
+  }
+  
+  /*---------------------------Cards Finish--------------------------------------*/
+  

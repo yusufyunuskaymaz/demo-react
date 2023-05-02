@@ -1,0 +1,87 @@
+/*---------------------------Navbar Start--------------------------------------*/
+
+.header {
+    margin: 1.62rem 4.75rem 0 5.5rem;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttons .account {
+    background-color: #03bfc0;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .button-hover:hover {
+    transform: scale(0.98);
+  }
+  
+  .stays {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    border: 1px solid #20202066;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .stays span {
+    margin-right: 1rem;
+  }
+  
+  .searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(32, 32, 32, 0.4);
+    padding: 0.1rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: -0.5rem;
+  }
+  
+  .searchbar ::placeholder{
+    color: #202020;
+    font-family: "Urbanist", sans-serif;
+  }
+  
+  .searchbar input {
+    border: none;
+    outline: none;
+    width: 14rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .searchbar i {
+    margin-left: 1rem;
+  }
+  
+  .searchbar:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12);
+    transition: 0.5s;
+  }
+  
+  /*---------------------------Navbar Finish--------------------------------------*/

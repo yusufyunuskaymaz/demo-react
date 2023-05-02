@@ -1,0 +1,22 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+  }
+  
+  body {
+    max-width: 1440px;
+    margin: auto;
+  }
+  
+  /*Global*/
+  ul li {
+    list-style-type: none;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  /*Global*/
