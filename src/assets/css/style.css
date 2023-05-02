@@ -1,0 +1,456 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+/*Global*/
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+/*Global*/
+
+
+/*---------------------------Navbar Start--------------------------------------*/
+
+.header {
+  margin: 1.62rem 4.75rem 0 5.5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons .account {
+  background-color: #03bfc0;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button-hover:hover {
+  transform: scale(0.98);
+}
+
+.stays {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+  border: 1px solid #20202066;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.stays span {
+  margin-right: 1rem;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(32, 32, 32, 0.4);
+  padding: 0.1rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: -0.5rem;
+}
+
+.searchbar ::placeholder{
+  color: #202020;
+  font-family: "Urbanist", sans-serif;
+}
+
+.searchbar input {
+  border: none;
+  outline: none;
+  width: 14rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.searchbar i {
+  margin-left: 1rem;
+}
+
+.searchbar:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12);
+  transition: 0.5s;
+}
+
+/*---------------------------Navbar Finish--------------------------------------*/
+
+/*---------------------------Hero Start--------------------------------------*/
+
+.hero {
+  margin: 0 4.5rem 0 4.56rem;
+}
+
+.img-container {
+  width: 100%;
+  height: 37rem;
+  /* background-image: url("/assets/img/other/city-map2.png"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+/*---------------------------Hero Finish--------------------------------------*/
+
+/*---------------------------Popular Start--------------------------------------*/
+
+.populer {
+  margin: 0 6.9rem 0 8.06rem;
+}
+
+.cards {
+  margin: 2rem 8.06rem -1rem 6.9rem;
+}
+
+.populer-container {
+  width: 95%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+
+.populer-container .head {
+  display: flex;
+  justify-content: space-between;
+}
+.populer-container .head ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+.populer-container .head li {
+  list-style-type: none;
+  font-size: 14px;
+  color: #7d7c84;
+  font-weight: 500;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.populer-container .head li:hover {
+  transform: scale(1.1);
+}
+
+.populer-container .head ul li:first-child {
+  background-color: #09080d;
+  color: #fcfcfd;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.populer-container .head .filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e9ebed;
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.populer-container .head .filter span {
+  margin-right: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/*---------------------------Popular Finish--------------------------------------*/
+
+/*---------------------------Cards Start--------------------------------------*/
+
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 8.5rem;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  overflow: hidden;
+}
+
+.cards .card .fa-star {
+  color: #ffd166;
+}
+
+.cards .card {
+  margin-top: 2rem;
+  width: 17.6rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cards .card img {
+  transition: 0.5s;
+}
+.cards .card img:hover {
+  transform: scale(1.02);
+  transform-origin: center center;
+}
+.cards .card .card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+.cards .card .card-info h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.cards .card .card-info .rate {
+  font-size: 16px;
+}
+
+.cards .card .location {
+  font-size: 14px;
+  color: #7d7c84;
+  margin-top: 0.3rem;
+  border-bottom: 1px solid #e9ebed;
+  padding-bottom: 1rem;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.price p:last-child {
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.price p:last-child span {
+  font-size: 12px;
+}
+
+/*---------------------------Cards Finish--------------------------------------*/
+
+/*---------------------------Connect Start--------------------------------------*/
+
+.connect-container .header {
+  text-align: center;
+}
+
+.connect-container .header h6 {
+  margin: 0 35rem 1rem 35rem;
+  color: #58c17d;
+}
+
+.connect-container .header h6 {
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+}
+
+.connect-container .header h6:before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2px;
+  background: #58c17d;
+  left: -3rem;
+  top: 44%;
+  position: absolute;
+}
+
+.connect-container .header h2 {
+  font-size: 48px;
+  margin: 0 15.3rem;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.connect-img {
+  /* background-image: url("/assets/img/other/connect.png"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 39.6rem ;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/*---------------------------Connect Finish--------------------------------------*/
+
+/*---------------------------Offer Start--------------------------------------*/
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 7.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.offer p {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.offer a {
+  text-decoration: none;
+  background-color: #3ebfc0;
+  padding: 1rem 2rem;
+  color: #fcfcfd;
+  border-radius: 32px;
+  transition: 0.5s;
+}
+
+.offer p span {
+  font-weight: 600;
+}
+
+.enroll {
+  display: flex;
+  margin: 0 20.9rem 0 19.8rem;
+  justify-content: space-between;
+  background-color: #000000;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  padding: 2rem 3rem;
+  border-radius: 0.6rem;
+  color: white;
+  font-size: 18px;
+}
+
+.enroll p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+}
+
+.enroll a {
+  text-decoration: none;
+  color: white;
+  background-color: #3ebfc0;
+  padding: 0.5rem 4rem;
+  border-radius: 0.6rem;
+  transition: 0.5s;
+}
+
+.enroll a:hover {
+  transform: scale(1.1);
+}
+
+/*---------------------------Offer Finish--------------------------------------*/
+
+/*---------------------------Footer Start--------------------------------------*/
+
+.brand {
+  width: 25%;
+}
+
+.brand p {
+  color: #7d7c84;
+}
+
+.brand .about {
+  margin-top: 1rem;
+}
+
+.brand .contact {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  /* width: 70%; */
+}
+
+.brand .contact i {
+  margin-right: 1rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.links .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #0a043c;
+}
+
+.links ul li {
+  color: #7d7c84;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 80%; */
+  margin: auto;
+  margin-top: 5.4rem;
+  margin-bottom: 5rem;
+}
+
+.social ul {
+  width: 8.25rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.icon-global{
+    padding: 0.3rem;
+    border-radius: 50%;
+    font-size: 13px;
+    color: white;
+    background-color: #09080d;
+}
+
+.fa-facebook, .fa-linkedin{
+  font-size: 1.5rem;
+}
+
+.fa-linkedin{
+  border-radius: 50%;
+}
+
+/*---------------------------Footer Finish--------------------------------------*/
