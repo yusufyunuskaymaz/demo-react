@@ -89,10 +89,19 @@
     padding: 0 0.3rem;
     width: 30%;
   }
-  .populer-container .filter {
-    background-color: red;
-    display: none !important;
+  .populer-container .head {
+    flex-direction: column;
   }
+  .populer-container .head .filter {
+    align-self: flex-end;
+
+  }
+  .populer-container .head ul {
+    margin-top: 1rem;
+    order: 1;
+  }
+
+
   .connect-img {
     height: 14rem;
   }
