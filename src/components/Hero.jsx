@@ -1,29 +1,40 @@
 import React from "react";
-import cityImage from "../assets/img/other/city-map2.png";
-import GoogleMapReact from "google-map-react";
+import { MarkerClusterer } from "@googlemaps/markerclusterer";
+import GoogleMapReact from 'google-map-react';
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-const Hero = () => {
+const AnyReactComponent = ({ text }) => <div id="map-cluster">{text}</div>;
+
+export default function SimpleMap(){
   const defaultProps = {
     center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
+      lat: 41.033567,
+      lng: 28.997030
     },
-    zoom: 11,
+    zoom: 14
   };
+
+  const coordinates = Array.from({ length: 30 }, () => [
+    +(41.035 + Math.random() / 100).toFixed(3),
+    +(28.969 + Math.random() / 100).toFixed(3),
+  ]);
+
+  // Her koordinat için bir <AnyReactComponent /> bileşeni oluşturuluyor
+  const markers = coordinates.map(([lat, lng]) => (
+    <AnyReactComponent key={`${lat}-${lng}`} lat={lat} lng={lng} text={`$${Math.floor(Math.random() * 100)}`} style={{margin: '10px'}}/>
+  ));
+
   return (
     // Important! Always set the container height explicitly
-    <div style={{ height: "100vh", width: "100%" }}>
+    <div className="google-map" style={{ height: '70vh', width: '80%' }}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyDOEdAxLCO_LhNDMT-7TGQxXWYpME9UtOE" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
-        <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
+        {markers}
+        
       </GoogleMapReact>
     </div>
   );
-};
-
-export default Hero;
+}

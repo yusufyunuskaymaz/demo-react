@@ -15,5 +15,10 @@
     border-radius: 1rem;
     cursor: pointer;
   }
+
+.google-map{
+    margin: 1rem auto;
+    border-radius: 2rem;
+  }
   
   /*---------------------------Main Finish--------------------------------------*/
