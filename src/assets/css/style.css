@@ -401,6 +401,12 @@ button {
   margin-right: 1rem;
 }
 
+.brand .contact span {
+  margin-right: 1rem;
+
+}
+
+
 .links {
   display: flex;
   justify-content: space-around;

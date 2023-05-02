@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from "../assets/img/other/logo.png";
+import { BsTelephone } from 'react-icons/bs';
+
 
 
 const Footer = () => {
@@ -20,7 +22,7 @@ const Footer = () => {
             <p>hello @ summituplife.com</p>
           </div>
           <div className="contact phone">
-            <i className="fa-solid fa-mobile-screen" />
+            <span><BsTelephone /></span>
             <p>+ 1049 10341 111</p>
           </div>
         </div>
