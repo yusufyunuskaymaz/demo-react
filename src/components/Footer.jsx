@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/img/other/logo.png";
+import logo from "../assets/img/other/logo.svg";
 import { BsTelephone } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
 
