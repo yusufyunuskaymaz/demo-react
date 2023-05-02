@@ -21,6 +21,9 @@
     flex-direction: column;
     gap: 1rem;
   }
+  header .searchbar{
+    margin-top: 0;
+  }
   .hero {
     margin: 0 1rem;
   }
@@ -154,6 +157,35 @@
   .hero {
     margin: 0 1rem;
   }
+  header .searchbar{
+    margin-top: 0;
+    padding: .8rem .5rem;
+    width: 70% !important;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  header .nav{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  header .nav div{
+    width: 50%;
+  }
+  header .nav div:nth-child(2) {
+    order: 3;
+    width: 100%;
+  }
+  header .nav div:first-child {
+    max-width: 30vw;
+    order: 1;
+  }
+  header .nav div:last-child {
+    order: 2;
+    margin-right: 2rem;
+  }
+
   .img-container {
     width: 100%;
     background-position: center;
