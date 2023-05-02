@@ -31,20 +31,28 @@
     font-size: 14px;
     color: #7d7c84;
     font-weight: 500;
-    transition: 0.5s;
+    /* transition: 0.2s; */
     cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
   }
   
   .populer-container .head li:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+  }
+
+  .populer-header{
+    background-color: #09080d;
+    color: #fcfcfd !important;
   }
   
-  .populer-container .head ul li:first-child {
+  /* .populer-container .head ul li:first-child {
     background-color: #09080d;
     color: #fcfcfd;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-  }
+  } */
   
   .populer-container .head .filter {
     display: flex;
