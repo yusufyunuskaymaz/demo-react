@@ -9,22 +9,17 @@ import card7 from "../assets/img/card/card-7.png";
 import card8 from "../assets/img/card/card-8.png";
 
 const Cards = () => {
-
-  const popularTitle = (e)=>{
-    showOrHide("block")
+  const popularTitle = (e) => {
+    showOrHide("block");
     //remove current colored title
-    document.querySelector(".populer-header").classList.toggle("populer-header")
+    document
+      .querySelector(".populer-header")
+      .classList.toggle("populer-header");
     //add title color
-    e.target.classList.add("populer-header")
+    e.target.classList.add("populer-header");
     // Change style of cards
     document.querySelector(".cards").style.justifyContent = "space-between";
-
-
-  }
-
-
-
-
+  };
 
   const showOrHide = (status) => {
     const card = document.querySelectorAll(".card");
@@ -33,19 +28,16 @@ const Cards = () => {
     });
   };
 
-  const showCard = (e,cardClass) => {
+  const showCard = (e, cardClass) => {
     showOrHide("none");
     const currentCard = document.querySelectorAll(`.${cardClass}`);
 
-    
     // Remove color from other titles
-    const coloredTitle = document.querySelector(".populer-header")
-    coloredTitle.classList.remove("populer-header")
-    
+    const coloredTitle = document.querySelector(".populer-header");
+    coloredTitle.classList.remove("populer-header");
 
     // Give color to title
-    e.target.classList.add("populer-header")
-
+    e.target.classList.add("populer-header");
 
     // If one category has more than one card it comes as node so we need to loop through it
     if (typeof currentCard === "object") {
@@ -57,7 +49,6 @@ const Cards = () => {
     } else {
       currentCard.style.display = "block";
       document.querySelector(".cards").style.justifyContent = "space-between";
-
     }
   };
 
@@ -67,13 +58,19 @@ const Cards = () => {
         <div className="populer-container">
           <div className="head">
             <ul>
-              <li id="main-title" className="populer-header" onClick={(e) => popularTitle(e)}>Popular nearby</li>
-              <li onClick={(e) => showCard(e,"card1")}>Villas</li>
-              <li onClick={(e) => showCard(e,"card2")}>Surfing</li>
-              <li onClick={(e) => showCard(e,"card3")}>Nation parks</li>
-              <li onClick={(e) => showCard(e,"card4")}>Lake</li>
-              <li onClick={(e) => showCard(e,"card5")}>Beach</li>
-              <li onClick={(e) => showCard(e,"card6")}>Camp</li>
+              <li
+                id="main-title"
+                className="populer-header"
+                onClick={(e) => popularTitle(e)}
+              >
+                Popular nearby
+              </li>
+              <li onClick={(e) => showCard(e, "card1")}>Villas</li>
+              <li onClick={(e) => showCard(e, "card2")}>Surfing</li>
+              <li onClick={(e) => showCard(e, "card3")}>Nation parks</li>
+              <li onClick={(e) => showCard(e, "card4")}>Lake</li>
+              <li onClick={(e) => showCard(e, "card5")}>Beach</li>
+              <li onClick={(e) => showCard(e, "card6")}>Camp</li>
             </ul>
             <div className="filter">
               <span>Filters</span>
