@@ -455,8 +455,14 @@ footer {
   font-size: 1.5rem;
 }
 
-.fa-linkedin{
+.linkedin{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
+  /* padding: .rem; */
 }
 
 /*---------------------------Footer Finish--------------------------------------*/

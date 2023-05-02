@@ -41,7 +41,7 @@ const Cards = () => {
         </div>
         <div className="card-body">
           <div className="card-info">
-            <h6>Luxury resort</h6>
+            <h6>Tree Resort</h6>
             <div className="rate">
               <i className="fa-solid fa-star" />
               4.8
@@ -53,7 +53,7 @@ const Cards = () => {
           <div className="price">
             <p>Jul 20-24</p>
             <p>
-              $140/<span>Night</span>
+              $200/<span>Night</span>
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Cards = () => {
         </div>
         <div className="card-body">
           <div className="card-info">
-            <h6>Luxury resort</h6>
+            <h6>Steel Galoon</h6>
             <div className="rate">
               <i className="fa-solid fa-star" />
               4.8
@@ -76,7 +76,7 @@ const Cards = () => {
           <div className="price">
             <p>Jul 20-24</p>
             <p>
-              $140/<span>Night</span>
+              $100/<span>Night</span>
             </p>
           </div>
         </div>
@@ -87,7 +87,7 @@ const Cards = () => {
         </div>
         <div className="card-body">
           <div className="card-info">
-            <h6>Luxury resort</h6>
+            <h6>Glass House</h6>
             <div className="rate">
               <i className="fa-solid fa-star" />
               4.8
@@ -99,7 +99,7 @@ const Cards = () => {
           <div className="price">
             <p>Jul 20-24</p>
             <p>
-              $140/<span>Night</span>
+              $120/<span>Night</span>
             </p>
           </div>
         </div>
@@ -133,7 +133,7 @@ const Cards = () => {
         </div>
         <div className="card-body">
           <div className="card-info">
-            <h6>Luxury resort</h6>
+            <h6>Tree Resort</h6>
             <div className="rate">
               <i className="fa-solid fa-star" />
               4.8
@@ -145,7 +145,7 @@ const Cards = () => {
           <div className="price">
             <p>Jul 20-24</p>
             <p>
-              $140/<span>Night</span>
+              $200/<span>Night</span>
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@ const Cards = () => {
         </div>
         <div className="card-body">
           <div className="card-info">
-            <h6>Luxury resort</h6>
+            <h6>Steel Galoon</h6>
             <div className="rate">
               <i className="fa-solid fa-star" />
               4.8
@@ -168,7 +168,7 @@ const Cards = () => {
           <div className="price">
             <p>Jul 20-24</p>
             <p>
-              $140/<span>Night</span>
+              $100/<span>Night</span>
             </p>
           </div>
         </div>
@@ -179,7 +179,7 @@ const Cards = () => {
         </div>
         <div className="card-body">
           <div className="card-info">
-            <h6>Luxury resort</h6>
+            <h6>Glass House</h6>
             <div className="rate">
               <i className="fa-solid fa-star" />
               4.8
@@ -191,7 +191,7 @@ const Cards = () => {
           <div className="price">
             <p>Jul 20-24</p>
             <p>
-              $140/<span>Night</span>
+              $120/<span>Night</span>
             </p>
           </div>
         </div>

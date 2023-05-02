@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../assets/img/other/logo.png";
 import { BsTelephone } from 'react-icons/bs';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 
 
@@ -36,7 +37,7 @@ const Footer = () => {
             <i className="fa-brands fa-instagram icon-global" />
           </li>
           <li>
-            <i className="fa-brands fa-linkedin " />
+            <span className='linkedin' style={{backgroundColor:"#09080D"}}> <FaLinkedinIn color="white" size={"14px"} /></span>
           </li>
           <li>
             <i className="fa-brands fa-twitter icon-global" />
