@@ -1,6 +1,7 @@
 import React from "react";
 import { MarkerClusterer } from "@googlemaps/markerclusterer";
 import GoogleMapReact from 'google-map-react';
+import  {mapStyle}  from "./mapStyle";
 
 
 const AnyReactComponent = ({ text }) => <div id="map-cluster">{text}</div>;
@@ -31,6 +32,8 @@ export default function SimpleMap(){
         bootstrapURLKeys={{ key: "AIzaSyDOEdAxLCO_LhNDMT-7TGQxXWYpME9UtOE" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
+        options={{ styles: mapStyle }} // styles özelliği bir dizi olarak tanımlanmalıdır
+
       >
         {markers}
         

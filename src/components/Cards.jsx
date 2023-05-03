@@ -44,6 +44,8 @@ const Cards = () => {
       document.querySelector(".cards").style.justifyContent = "flex-start";
       currentCard.forEach((item) => {
         item.style.display = "block";
+        
+        document.querySelector(".cards").style.gap = "1.5rem";
         // item.style.marginRight = "1rem";
       });
     } else {
