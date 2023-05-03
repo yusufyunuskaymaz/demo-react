@@ -30,7 +30,8 @@
   .google-map {
     height: 65vh;
     width: 90%;
-
+    border-radius: 1rem;
+    overflow: hidden;
   }
   .cards {
     margin: 0 auto;

@@ -2,6 +2,7 @@ import React from "react";
 import { MarkerClusterer } from "@googlemaps/markerclusterer";
 import GoogleMapReact from 'google-map-react';
 import  {mapStyle}  from "./mapStyle";
+import {data} from "./mapRandomData";
 
 
 const AnyReactComponent = ({ text }) => <div id="map-cluster">{text}</div>;
@@ -14,9 +15,11 @@ export default function SimpleMap(){
     +(28.969 + Math.random() / 100).toFixed(3),
   ]);
 
+  console.log(coordinates,"coordinates")
+
   // Her koordinat için bir <AnyReactComponent /> bileşeni oluşturuluyor
-  const markers = coordinates.map(([lat, lng],index) => (
-    <AnyReactComponent key={index+1} lat={lat} lng={lng} text={`$${Math.floor(Math.random() * 100)}`} style={{margin: '10px'}}/>
+  const markers = data.map(([lat, lng,text],index) => (
+    <AnyReactComponent key={index+1} lat={lat} lng={lng} text={text} style={{margin: '10px'}}/>
   ));
   console.log(markers,"markers")
   const defaultProps = {
