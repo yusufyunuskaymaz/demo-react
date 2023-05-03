@@ -12,7 +12,7 @@
     order: 3;
   }
 
-  header .buttons{
+  header .buttons {
     text-align: center;
     justify-content: center;
   }
@@ -21,7 +21,7 @@
     flex-direction: column;
     gap: 1rem;
   }
-  header .searchbar{
+  header .searchbar {
     margin-top: 0;
   }
   .hero {
@@ -30,6 +30,7 @@
   .google-map {
     height: 65vh;
     width: 90%;
+
   }
   .cards {
     margin: 0 auto;
@@ -39,12 +40,12 @@
     /* margin: 0 2rem; */
     margin-top: 3rem;
   }
-  .connect-container .header h6{
+  .connect-container .header h6 {
     margin: 0;
   }
-  .connect-container .header{
+  .connect-container .header {
     margin: 0;
-    margin-top: 3rem; 
+    margin-top: 3rem;
   }
   .enroll {
     margin: 0;
@@ -86,20 +87,18 @@
   }
   .populer-container .head li {
     font-size: 12px;
-    padding: .4rem 0.3rem;
+    padding: 0.4rem 0.3rem;
   }
   .populer-container .head {
     flex-direction: column;
   }
   .populer-container .head .filter {
     align-self: flex-end;
-
   }
   .populer-container .head ul {
     margin-top: 1rem;
     order: 1;
   }
-
 
   .connect-img {
     height: 14rem;
@@ -121,8 +120,8 @@
     margin: 0;
   }
 
-  .mobile-class p{
-    padding-left: .4rem;
+  .mobile-class p {
+    padding-left: 0.4rem;
     /* text-align: center; */
   }
 
@@ -138,7 +137,7 @@
     justify-content: space-evenly;
   }
   .about2 .contact i {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
   }
   footer .social ul {
     margin: 2rem auto;
@@ -156,11 +155,9 @@
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   .about2 {
-
     justify-content: start;
   }
-  
-  
+
   .populer-container .head {
     flex-direction: column;
   }
@@ -174,20 +171,19 @@
   .hero {
     margin: 0 1rem;
   }
-  header .searchbar{
+  header .searchbar {
     margin-top: 0;
-    padding: .8rem .5rem;
+    padding: 0.8rem 0.5rem;
     width: 70% !important;
     margin: auto;
     margin-top: 1rem;
   }
-  header .nav{
+  header .nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
-    
   }
-  header .nav div{
+  header .nav div {
     width: 50%;
   }
   header .nav div:nth-child(2) {
@@ -210,7 +206,7 @@
     height: 20rem;
     margin-top: 2rem;
   }
-  .connect-container .header h6{
+  .connect-container .header h6 {
     margin: 0;
     margin-top: 3rem;
   }
@@ -318,7 +314,7 @@
   .header {
     margin: 0 1rem;
   }
-  .img-container{
+  .img-container {
     height: 25.6rem;
     background-size: cover;
   }
@@ -365,7 +361,7 @@
   .connect-container .header h6 {
     margin: 0;
   }
-  .img-container{
+  .img-container {
     height: 37.6rem;
   }
   .cards {

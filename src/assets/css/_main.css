@@ -21,6 +21,8 @@
     border-radius: 2rem;
     height: 65vh;
     width: 80%;
+    border-radius: 1.5rem;
+    overflow: hidden;
   }
   
   /*---------------------------Main Finish--------------------------------------*/
