@@ -27,12 +27,9 @@
   .hero {
     margin: 0 1rem;
   }
-  .img-container {
-    /* width: 25rem; */
-    background-position: center;
-    background-size: contain;
-    height: 6rem;
-    margin-top: .5rem;
+  .google-map {
+    height: 55vh;
+    width: 90%;
   }
   .cards {
     margin: 0 auto;

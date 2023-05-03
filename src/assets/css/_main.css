@@ -3,22 +3,24 @@
 .hero {
     margin: 0 4.5rem 0 4.56rem;
   }
-  
+/*   
   .img-container {
     width: 100%;
     height: 37rem;
-    /* background-image: url("/assets/img/other/city-map2.png"); */
+    background-image: url("/assets/img/other/city-map2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-top: 5rem;
     border-radius: 1rem;
     cursor: pointer;
-  }
+  } */
 
 .google-map{
     margin: 1rem auto;
     border-radius: 2rem;
+    height: 65vh;
+    width: 80%;
   }
   
   /*---------------------------Main Finish--------------------------------------*/
