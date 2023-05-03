@@ -38,8 +38,9 @@
 
   }
   
-  .populer-container .head li:hover {
-    /* transform: scale(1.1); */
+  .populer-container .head li{
+    white-space: nowrap;
+
   }
 
   .populer-header{
@@ -69,5 +70,6 @@
     font-weight: 500;
     font-size: 14px;
   }
+
   
   /*---------------------------Popular Finish--------------------------------------*/

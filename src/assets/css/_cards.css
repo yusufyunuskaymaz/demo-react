@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     gap: 0.3rem;
     overflow: hidden;
+    /* margin: 3rem 8.5rem auto; */
   }
   
   .cards .card .fa-star {

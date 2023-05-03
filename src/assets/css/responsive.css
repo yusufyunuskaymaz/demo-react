@@ -35,11 +35,11 @@
     margin-top: .5rem;
   }
   .cards {
-    margin: 0;
-    justify-content: center;
+    margin: 0 auto;
+    justify-content: center !important;
   }
   .cards .card {
-    margin: 0 2rem;
+    /* margin: 0 2rem; */
     margin-top: 3rem;
   }
   .connect-container .header h6{
@@ -89,8 +89,7 @@
   }
   .populer-container .head li {
     font-size: 12px;
-    padding: 0 0.3rem;
-    width: 30%;
+    padding: .4rem 0.3rem;
   }
   .populer-container .head {
     flex-direction: column;
@@ -125,6 +124,11 @@
     margin: 0;
   }
 
+  .mobile-class p{
+    padding-left: .4rem;
+    /* text-align: center; */
+  }
+
   .brand {
     margin: 0;
   }
@@ -136,8 +140,8 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
-  .about2 div:first-child {
-    margin-right: 1rem;
+  .about2 .contact i {
+    margin-left: .5rem;
   }
   footer .social ul {
     margin: 2rem auto;
@@ -145,7 +149,7 @@
 
   footer .links {
     width: 100%;
-    margin: 0 0.5rem;
+    /* margin: 0 0.5rem; */
     flex-direction: column;
   }
   footer .links ul {
@@ -153,7 +157,23 @@
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .about2 {
+
+    justify-content: start;
+  }
+  
+  
+  .populer-container .head {
+    flex-direction: column;
+  }
+  .populer-container .head ul {
+    order: 2;
+  }
+  .populer-container .head .filter {
+    order: 1;
+    align-self: flex-end;
+  }
   .hero {
     margin: 0 1rem;
   }
@@ -230,8 +250,8 @@
   }
 
   .cards .card {
-    width: 45%;
-    text-align: center;
+    /* width: 45%; */
+    /* text-align: center; */
   }
 
   .offer {
