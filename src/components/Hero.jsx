@@ -7,13 +7,7 @@ import  {mapStyle}  from "./mapStyle";
 const AnyReactComponent = ({ text }) => <div id="map-cluster">{text}</div>;
 
 export default function SimpleMap(){
-  const defaultProps = {
-    center: {
-      lat: 41.033567,
-      lng: 28.997030
-    },
-    zoom: 14
-  };
+  
 
   const coordinates = Array.from({ length: 30 }, () => [
     +(41.035 + Math.random() / 100).toFixed(3),
@@ -21,9 +15,17 @@ export default function SimpleMap(){
   ]);
 
   // Her koordinat için bir <AnyReactComponent /> bileşeni oluşturuluyor
-  const markers = coordinates.map(([lat, lng]) => (
-    <AnyReactComponent key={`${lat}-${lng}`} lat={lat} lng={lng} text={`$${Math.floor(Math.random() * 100)}`} style={{margin: '10px'}}/>
+  const markers = coordinates.map(([lat, lng],index) => (
+    <AnyReactComponent key={index+1} lat={lat} lng={lng} text={`$${Math.floor(Math.random() * 100)}`} style={{margin: '10px'}}/>
   ));
+  console.log(markers,"markers")
+  const defaultProps = {
+    center: {
+      lat: markers[0].props.lat,
+      lng: markers[0].props.lng
+    },
+    zoom: 14
+  };
 
   return (
     // Important! Always set the container height explicitly
