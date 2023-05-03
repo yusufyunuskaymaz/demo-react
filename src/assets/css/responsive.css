@@ -241,7 +241,8 @@
   .cards {
     margin: 0 0.3rem;
     margin-top: 2rem;
-    justify-content: space-between;
+    justify-content: space-evenly !important;
+    text-align: center;
   }
 
   .enroll {
@@ -285,12 +286,12 @@
   }
   .cards {
     margin: 0;
-    justify-content: center;
+    justify-content: center !important;
     gap: 1rem 1rem;
     margin: 2rem 0;
   }
   .cards .card {
-    width: 30%;
+    /* width: 30%; */
   }
   .hero {
     margin: 0 1rem;
@@ -329,7 +330,7 @@
   }
   .cards {
     margin: 0;
-    justify-content: center;
+    justify-content: center !important;
     gap: 1rem 1rem;
     margin: 2rem 0;
   }
@@ -372,12 +373,12 @@
   }
   .cards {
     margin: 0;
-    justify-content: center;
+    justify-content: center !important;
     gap: 1rem 1rem;
     margin: 2rem 0;
   }
   .cards .card {
-    width: 30%;
+    /* width: 30%; */
   }
   .hero {
     margin: 0 1rem;
