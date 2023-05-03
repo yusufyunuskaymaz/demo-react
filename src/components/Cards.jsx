@@ -7,6 +7,13 @@ import card4 from "../assets/img/card/card-4.png";
 import card6 from "../assets/img/card/card-6.png";
 import card7 from "../assets/img/card/card-7.png";
 import card8 from "../assets/img/card/card-8.png";
+import { CiSliderHorizontal } from "react-icons/ci";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const Cards = () => {
   const popularTitle = (e) => {
@@ -44,7 +51,7 @@ const Cards = () => {
       document.querySelector(".cards").style.justifyContent = "flex-start";
       currentCard.forEach((item) => {
         item.style.display = "block";
-        
+
         document.querySelector(".cards").style.gap = "1.5rem";
         // item.style.marginRight = "1rem";
       });
@@ -76,7 +83,7 @@ const Cards = () => {
             </ul>
             <div className="filter">
               <span>Filters</span>
-              <i className="fa-solid fa-sliders" />
+              <CiSliderHorizontal size={25} />
             </div>
           </div>
         </div>
@@ -84,9 +91,33 @@ const Cards = () => {
       <div className="container">
         <div className="cards">
           <div className="card card1">
-            <div className="card-img">
-              <img src={card1} alt="house" />
-            </div>
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={30}
+              loop={true}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <img src={card1} alt="card1" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={card2} alt="card1" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={card3} alt="card1" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={card4} alt="card1" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={card6} alt="card1" />
+              </SwiperSlide>
+            </Swiper>
             <div className="card-body">
               <div className="card-info">
                 <h6>Luxury resort</h6>

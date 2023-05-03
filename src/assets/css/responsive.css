@@ -327,6 +327,7 @@
     justify-content: center !important;
     gap: 1rem 1rem;
     margin: 2rem 0;
+    text-align: center;
   }
   .cards .card {
     width: 30%;
