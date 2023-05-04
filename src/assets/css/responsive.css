@@ -82,13 +82,13 @@
     text-align: center;
   }
   .populer-container .head ul li:first-child {
-    padding: 0.5rem 0.3rem;
+    padding: 0.5rem 0.5rem;
     text-align: center;
-    width: 30%;
+    /* width: 30%; */
   }
   .populer-container .head li {
     font-size: .8rem;
-    padding: 0.4rem 0.3rem;
+    padding: 0.4rem;
   }
   .populer-container .head {
     flex-direction: column;
