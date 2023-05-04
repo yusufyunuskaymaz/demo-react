@@ -7,7 +7,7 @@
     text-align: center;
   }
   .searchbar {
-    padding: 1rem 1rem;
+    padding: .1rem 1rem;
     margin: 0 1rem;
     order: 3;
   }
@@ -175,8 +175,8 @@
   }
   header .searchbar {
     margin-top: 0;
-    padding: 0.8rem 0.5rem;
-    width: 70% !important;
+    padding: 0.1rem 0.5rem;
+    width: 50% !important;
     margin: auto;
     margin-top: 1rem;
   }
