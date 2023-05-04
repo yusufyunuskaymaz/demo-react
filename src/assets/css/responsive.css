@@ -87,7 +87,7 @@
     width: 30%;
   }
   .populer-container .head li {
-    font-size: 12px;
+    font-size: .8rem;
     padding: 0.4rem 0.3rem;
   }
   .populer-container .head {
@@ -122,7 +122,7 @@
   }
 
   .mobile-class p {
-    padding-left: 0.4rem;
+    /* padding-left: 0.4rem; */
     /* text-align: center; */
   }
 
@@ -131,11 +131,12 @@
   }
   .about {
     width: 100vw;
+    text-align: center;
   }
   .about2 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
   }
   .about2 .contact i {
     margin-left: 0.5rem;
